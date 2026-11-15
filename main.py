@@ -1,8 +1,9 @@
 #constanta
-MY_LAT=33.1928
-MY_LNG=73.1410
-MY_EMAIL="harisafsar2007@gmail.com"
-MY_PASSWORD="qlnq ipyw lctr zant"
+import os
+MY_LAT=os.eniron.get("MY_LAT")
+MY_LNG=os.environ.get("MY_LNG")
+MY_EMAIL=os.environ.get("MY_EMAIL")
+MY_PASSWORD=os.environ.get("MY_PASSWORD")
 #LIBRARIES
 import time
 import requests
